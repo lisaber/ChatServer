@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/lyf/project/Chat/src/server/redis/redis.cpp
+redis.hpp
+/home/lyf/project/Chat/src/server/redis/redis.hpp
+iostream
+-
+thread
+-
+
+include/server/redis/redis.hpp
+hiredis/hiredis.h
+-
+thread
+-
+functional
+-
+
